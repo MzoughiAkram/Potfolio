@@ -268,13 +268,38 @@
 					<div class="col"><div class="fw-normal fs-5 fs-md-4">Un projet de création web ?</div><div class="fw-light fs-6 fs-md-5">Allons en discuter autour d'un café</div></div>
 				</div>
 
-				<div class="row my-3">
+				<div class="row my-6">
 					<div class="col">
 						<img src="https://raw.githubusercontent.com/OpenClassrooms-Student-Center/cours-Bootstrap-5/main/votreDossier/img/grab-a-coffee.jpg" class="img-fluid" alt="design">
 					</div>
 						
-					<div class="col py-3 offset-1">
+					<div class="col py-1 offset-1">
+						<form>
+						<div class="container">
+							<div class="row">
+								<div class="col mb-3">
+									<label for="FormPrénom" class="form-label">prénom</label>
+  									<input type="text" class="form-control" name="Prénom" id="FormPrénom">
+  								</div>
+								<div class="col mb-3">
+  									<label for="FormNom" class="form-label">Nom</label>
+  									<input type="text" class="form-control" name="nom" id="FormNom">
+  								</div>
+							</div>
 						
+							<div class="mb-3">
+  								<label for="FormEmailaddress" class="form-label">Email address</label>
+  								<input type="email" class="form-control" name="email address" id="FormEmailaddress" placeholder="name@example.com">
+							</div>
+							<div class="mb-3">
+  								<label for="FormMessage" class="form-label">Message</label>
+  								<textarea class="form-control" name="message" id="FormMessage" rows="3"></textarea>
+							</div>
+							<div class="d-grid gap-2">
+    							<button class="btn btn-primary" type="submit">Envoyer</button>
+  							</div>
+						</div>
+						</form>
 					</div>
 					
 				</div>
